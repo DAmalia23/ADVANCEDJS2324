@@ -18,6 +18,7 @@ export const findAll = (callback: Function) => {
         email: row.email,
         datanastere: row.datanastere,
         telefon: row.telefon,
+        poza:row.poza,
         dataadaugare: row.dataadaugare,
         actiune: "",
       };
